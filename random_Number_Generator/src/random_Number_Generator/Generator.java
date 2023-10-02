@@ -13,11 +13,11 @@ public class Generator {
 	//Method to generate random number
 	public void randomNum() {
 		randomNumber=createRandom.nextInt(1,100);
-		System.out.println("-------------------------------------");
+		System.out.println("*********************************");
 		System.out.println("<------Let's Begin the Game------>");
 		System.out.println("Random Number Generated!");
 		evalveEvaluator.checkRandom(randomNumber);
-		System.out.println("-------------------------------------");
+		System.out.println("*********************************");
 	}
 
 }

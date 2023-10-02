@@ -7,7 +7,7 @@ public class Evaluator {
 	private int userInput,differValue,point=140;
 	private boolean successValue=false; 
 	
-	//input variable
+	//user input variable
 	Scanner getScanner=new Scanner(System.in);
 	
 
@@ -18,7 +18,7 @@ public class Evaluator {
 	  		{
 	  		System.out.println("-------------------------------------");
 	  	  	System.out.println("Attempt:"+(i+1));
-	  	  	System.out.println("Enter the Guessed Number between 1-100");
+	  	  	System.out.println("Enter the Guessed Number between 1-100\n");
 		  	userInput=getScanner.nextInt();
 		  	differValue=value-userInput;
 		  	if (userInput>=1 && userInput <=100) {
